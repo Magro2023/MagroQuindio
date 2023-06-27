@@ -1,0 +1,751 @@
+@import url('https://fonts.cdnfonts.com/css/neon-80s');
+
+body{
+    background: url(../Imagenes/Fondo.png);
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clear {
+    clear: both;
+}
+
+main {
+    width: 1100px;
+    border: 2px solid #ccc;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+.slider{
+    margin-left: 65px;
+    width: 970px;
+    height: 400px;
+    overflow: hidden;
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate linear;
+    width: 400%;
+}
+.slider img{
+width: 970px;
+height: 300px;
+}
+.slider li{
+    list-style: none;
+}
+@keyframes cambio{
+    0%{ margin-left: 0;}
+    20%{ margin-left: 0;}
+
+    25%{ margin-left: -100%;}
+    40%{ margin-left: -100%;}
+
+    45%{ margin-left: -200%;}
+    60%{ margin-left: -200%;}
+}
+
+.Color {
+    background-color: #307223;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+.banner h2{
+    color: #ccc;
+    background: #026d19;
+    text-align: center;
+}
+.banner1 {
+    height: 340px;
+    background: url("../Imagenes/Banner-Magro-S.A.jpg") 0 -48px;
+    background-size: cover;
+}
+
+.banner2 {
+    height: 170px;
+    background: url("../Imagenes/artesanias.png") 0 -20px;
+    background-size: cover;
+}
+
+.banner3 {
+    height: 170px;
+    background: url("../Imagenes/agroindustrial.png") 0 -20px;
+    background-size: cover;
+}
+
+.banner4 {
+    height: 170px;
+    background: url("../Imagenes/contacto.png") 0 -20px;
+    background-size: cover;
+}
+
+.banner5 {
+    height: 170px;
+    background: url("../Imagenes/cosmeticos.png") 0 -20px;
+    background-size: cover;
+}
+
+.banner6 {
+    height: 170px;
+    background: url("../Imagenes/lacteos.png") 0 -20px;
+    background-size: cover;
+}
+
+.banner7 {
+    height: 170px;
+    background: url("../Imagenes/medicinal.png") 0 -20px;
+    background-size: cover;
+}
+
+.banner8 {
+    height: 170px;
+    background: url("../Imagenes/Productos.png") 0 -20px;
+    background-size: cover;
+}
+
+.banner9 {
+    height: 170px;
+    background: url("../Imagenes/Quienes\ somos.jpeg") 0 -20px;
+    background-size: cover;
+}
+
+.banner10 {
+    height: 170px;
+    background: url("../Imagenes/lacteos.png") 0 -20px;
+    background-size: cover;
+}
+
+.banne11 {
+    height: 170px;
+    background: url("../Imagenes/lacteos.png") 0 -20px;
+    background-size: cover;
+}
+
+.banner12 {
+    height: 170px;
+    background: url("../Imagenes/lacteos.png") 0 -20px;
+    background-size: cover;
+}
+
+.banner13 {
+    height: 170px;
+    background: url("../Imagenes/lacteos.png") 0 -20px;
+    background-size: cover;
+}
+
+.logo {
+    margin: 20px 0 20px 0;
+    padding-left: 60px;
+    width: 190px;
+    float: left;
+}
+
+nav {
+    float: right;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav ul {
+    padding-right: 40px;
+    margin-top: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10PX;
+    border-radius: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav ul li a:hover{
+    transition: 0.5s;
+    background-color: #cd7e36;
+}
+
+.Contenido nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Merriweather Sans', sans-serif;
+
+}
+
+.Contenido nav ul {
+    margin-top: 30px;
+}
+
+.Contenido nav ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.Contenido nav ul li a {
+    text-decoration: none;
+    background-color: #008bf5;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin: 10PX;
+    border-radius: 10px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+#conteintemcarrusel {
+    height: 350px;
+    overflow: hidden;
+}
+
+.itemcarrusel {
+    height: 100%;
+    position: relative;
+    padding-left: 60px;
+}
+
+.itemcarrusel img {
+    width: 975px;
+    height: 279px;
+}
+
+.Tarjetacarrusel {
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+.busqueda{
+    display: flex;
+    width: 670px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    margin-top: 5px;
+}
+.buscar{
+    padding: 10px;
+    padding-left: 345px;
+}
+
+.boton{
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 940px;
+    width: 150px;
+    height: 50px;
+
+}
+.boton a{
+    background-color: #cd7e36;
+    border-radius: 10px;
+    padding: 10px 20px 10px 20px;
+    color: rgb(255, 255, 255);
+}
+.buscar h3{
+    padding-bottom: 10px;
+
+}
+.buscar input{
+border: 2px solid #079231;
+border-radius: 5px;
+    padding: 10px;
+   padding-right: 200px;
+   border-color: #026d19;
+   
+} 
+.categorias{
+    width: 290px;
+    height: 300px;
+    background-color: #0477217c;
+    margin-top: 8px;
+    margin-left: 10px;
+
+}
+
+.categorias h3{
+    text-align: center;
+    padding-left: 20px;
+    color: #fff;
+    background: #079231;
+}
+.categorias ul{
+    margin: 25px;
+    list-style: none;
+}
+.categorias a:hover{
+    padding: 5px;
+   color: #026d19;
+}
+.categorias a{
+    color: #fff;
+}
+.categorias li{
+margin: 10px 0 10px 0;
+}
+.ProductoS{
+    display: flex;
+}
+.imageproducto{
+    justify-content: center;
+    width: 900px;
+    height: 870px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.imageproducto2{
+    justify-content: center;
+    width: 900px;
+    height: 570px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.imageproducto2 a{
+    color: rgb(255, 255, 255);
+    background: #cd7e36;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    transform: translate(-220%,480%);
+}
+.imageproducto3{
+    justify-content: center;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.imageproducto3 a{
+    color: rgb(255, 255, 255);
+    background: #cd7e36;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    transform: translate(-220%,480%);
+}
+.imageproducto4{
+    justify-content: center;
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 100px;
+}
+.imageproducto4 a{
+    color: rgb(255, 255, 255);
+    background: #cd7e36;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px;
+    position: absolute;
+    transform: translate(-220%,480%);
+}
+.Card img{
+width: 200px;
+height: 270px;
+}
+.Card{
+    margin: 20px;
+}
+
+.contenidoss h4 {
+    color: #fff;
+    padding-top: 10px;
+    margin-bottom: 40px;
+}
+
+.imageproducto a{
+    color: rgb(255, 255, 255);
+   background: #cd7e36;
+   border-radius: 5px;
+   padding: 10px;
+   margin: 20px;
+   position: absolute;
+   transform: translate(-220%,480%);
+}
+.Mega{
+    justify-content: center;
+    width: 1060px;
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.nexo{
+    justify-content: center;
+    text-align: center;
+    height: 200px;
+    width: 415px;
+}
+.nexo a{
+color: rgb(0, 0, 0);
+text-align: center;
+}
+.nexo img{
+    padding-bottom: 20px;
+    width: 400px;
+
+}
+
+.Parrafo{
+    display: flex;
+    margin: 10px;
+}
+
+.Video{
+    margin: 7px;
+    padding: 7px;
+}
+
+footer{ 
+    font-family: 'Kanit', sans-serif;
+    background-color: #307223;
+    height: 200px;
+}
+.magro img{
+    justify-content: center;
+    width: 30px;
+}
+.magro h5{
+    color: #ffff;
+}
+.presentacion{
+    height: 100px;
+    width: 900px;
+    margin: 40px 0 30px 100px;
+}
+.textos{
+  text-align: center;
+}
+.presentacion h1{
+  color: #0eb01e;
+  padding-bottom: 30px;
+}
+
+.informaciones{
+    width: 500px;
+  padding-left: 50px;
+}
+.informaciones h3{
+    margin-bottom: 20px;
+}
+.imagen{
+    padding-left: 80px;
+}
+.titulodepro{
+    width: 550px;
+}
+.titulodepro h1{
+    text-align: center;
+    margin-bottom: 10px;
+  
+}
+.contactodepro{
+    display: flex;
+    width: 900px;
+    height: 700px;
+}
+.contactodepro img{
+    width: 400px;
+}
+
+.contenedor{
+text-align: center;
+display: flex;
+justify-content: center;
+}
+
+
+.magro{
+    margin-top: 40px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+.redes{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.redes h5{
+    font-size: 15px;
+    color: #fff;
+    margin: 10px 0 10px 0;
+}
+
+.redes img{
+    width: 40px;
+}
+
+.Artesanias img{
+    width: 100px;
+    height: 90px;
+    margin: 10px;
+    display: flex;
+}
+
+.div{
+    display: flex;
+}
+
+.div img{
+    width: 150px;
+    height: 130px;
+    margin: 9px;
+}
+
+.informacion{
+   display: flex;
+   justify-content: space-evenly;
+   height: 250px;
+   width: 1090px;
+}
+.contenido2{
+    width: 500px;
+}
+.contenido2 h2{
+    margin-bottom: 10px;
+}
+.video{
+  margin-left: 30px;
+}
+.pregunta{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.targeta{
+    display: flex;
+    justify-content: center;
+}
+.targeta img{
+    height: 438px;
+    width: 308px;
+    margin: 10px;
+}
+.Fotos{
+    margin-bottom: 40px;
+}
+
+.informacion{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.redessocial{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.suscribete{
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+    display: flex;
+}
+.suscribete h6{
+    font-size: 20px;
+    color: #fff;
+}
+.suscribete img{
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.redessocial img{
+    width: 30%;
+    justify-content: space-around;
+}
+
+.contactanos{
+    display: flex;
+    margin-top: 90px;
+    width: 900px;
+    height: 400px;
+    margin-bottom: 50px;
+}
+.mensaje form .campo,textarea{
+    width: 400px;
+    height: 200px;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.Enviar{
+    margin-top: 20px;
+    padding-left: 340px;
+}
+.mensaje{
+    width: 500px;
+    height: 600px;
+    padding-left: 50px;
+}
+.mensaje a{
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px;
+    background-color: #0eb01e;
+}
+.encuentranos1 h3{
+    margin: 50px 50px 50px 50px;
+}
+.encuentranos h4{
+    padding-top: 30px;
+}
+.encuentranos{
+    padding-top: 200px;
+    width: 800px;
+    height: 400px;
+    display: flex;
+    padding-left: 60px;
+}
+.encuentranos img{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.Ubicacion{
+    display: flex;
+    justify-content: center;
+}
+
+.Ubicacion iframe{
+    margin: 5px;
+}
+
+.contenido2{
+    padding: 1%;
+}
+.contactos34{
+    width: 400px;
+    height: 300px;
+}
+
+.contacto23 img{
+width: 60px;
+margin: 10px 0 10px 0;
+}
+.contacto23 h6{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.contactos34{
+    margin-left: 2px;
+}
+.contacto23{
+    display: flex;
+}
+.contacto23 h6{
+margin-top: 25px;
+}
+.nombredelcontacto{
+    margin: 30px 0 30px 0;
+}
+.informacionmagro{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.magrohistoria{
+    width: 500px;
+    padding-left: 25px;
+}
+.magrohistoria h1{
+    padding: 15px;
+}
+
+.magrohistoria p{
+    padding: 5px;
+}
+.imagenquienes img{
+    margin-left: 50px;
+    width: 500px;
+}
+
+.Formulario{
+    width: 400px;
+    background: #75C718;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: #557E50;
+    box-shadow: 8px 20px 10px #557E50;
+}
+
+.Formulario h1{
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.Formulario p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.Formulario a{
+    text-decoration: none;
+}
+
+.Formulario a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.Formulario .botons{
+    width: 100%;
+    background: #6EAD15;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.Formulario .botons:hover{
+    transition: 0.5s;
+    background-color: #557E50;
+}
+
+.controls{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 16px;
+    border: 1px solid #557E50;
+    font-size: 18px;
+    background-color: #fff;
+    color: #557E50;
+}
+

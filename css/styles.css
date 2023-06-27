@@ -1,0 +1,69 @@
+body{
+    background: url(../Imagenes/Fondo.png);
+    background-size: cover;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Formulario{
+    width: 400px;
+    background: #75C718;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: #557E50;
+    box-shadow: 8px 20px 10px #557E50;
+}
+
+.Formulario h1{
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.Formulario p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 50px;
+    color: #fff;
+}
+
+.Formulario a{
+    text-decoration: none;
+}
+
+.Formulario a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.Formulario .botons{
+    width: 100%;
+    background: #6EAD15;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.Formulario .botons:hover{
+    transition: 0.5s;
+    background-color: #557E50;
+}
+
+.controls{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 16px;
+    border: 1px solid #557E50;
+    font-size: 18px;
+    background-color: #fff;
+    color: #557E50;
+}
